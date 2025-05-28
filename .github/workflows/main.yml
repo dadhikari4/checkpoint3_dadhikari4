@@ -3,7 +3,7 @@ on:
   push:
     branches: [ "main" ]
 jobs:
-  greet:
+  hello-world:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
